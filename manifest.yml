@@ -1,0 +1,12 @@
+---
+applications:
+  - name: rsc-sample-spring
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    host: rsc-sample-spring
+    path: target/sample-spring-predix-1.0.0.jar
+    memory: 512M
+    timeout : 180
+    services:
+    - rsc-uaa
+env:
+   MEMORY_LIMIT: 768M
