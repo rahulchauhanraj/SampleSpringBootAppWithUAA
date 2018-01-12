@@ -1,12 +1,12 @@
 ---
 applications:
-  - name: rsc-sample-spring
+  - name: rsc-sample-spring-rest
     buildpack: https://github.com/cloudfoundry/java-buildpack.git
-    host: rsc-sample-spring
-    path: target/sample-spring-predix-1.0.0.jar
+    host: rsc-sample-spring-rest
+    path: target/sampleSpringBootAppWithUAA-1.0-SNAPSHOT.jar
     memory: 512M
     timeout : 180
     services:
     - rsc-uaa
 env:
-   MEMORY_LIMIT: 768M
+   MEMORY_LIMIT: 1G
