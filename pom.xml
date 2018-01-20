@@ -21,7 +21,6 @@
         <uaa-lib.version>3.2.2</uaa-lib.version>
         <maven-compiler-plugin.version>2.3.1</maven-compiler-plugin.version>
         <maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
-        <springframework.version>4.3.10.RELEASE</springframework.version>
         <springboot.version>1.5.7.RELEASE</springboot.version>
         <maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
     </properties>
