@@ -1,8 +1,8 @@
 ---
 applications:
-  - name: rsc-sample-spring-rest
+  - name: rsc-sample-cf-spring-rest-with-uaa
     buildpack: https://github.com/cloudfoundry/java-buildpack.git
-    host: rsc-sample-spring-rest
+    host: rsc-sample-cf-spring-rest-with-uaa
     path: target/sampleSpringBootAppWithUAA-1.0-SNAPSHOT.jar
     memory: 512M
     timeout : 180
