@@ -25,7 +25,7 @@ Each Microservice Template project shares the following characteristics
   ```
 2. Push to cloud  
   ```
-    Take a look at the [SampleCFSpringBootWithUAA manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry]
+  Take a look at the [SampleCFSpringBootWithUAA manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry]
 
-    $ cf push 
+  $ cf push 
  
