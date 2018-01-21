@@ -1,4 +1,4 @@
-```
+
 Sample Predix Microservice Template using Spring Rest Template with UAA auth
 ==============
 
@@ -24,8 +24,8 @@ Each Microservice Template project shares the following characteristics
     note: mvn clean install may run integration tests against services you may not have set up yet
   ```
 2. Push to cloud  
-  ```
+  
   Take a look at the [SampleCFSpringBootWithUAA manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry]
-
+```
   $ cf push 
  
