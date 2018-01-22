@@ -27,13 +27,13 @@
 
     <dependencies>
 
-        <!-- STUF Related -->
+        <!-- javax.inject -->
         <dependency>
-            <groupId>com.ge.stuf</groupId>
-            <artifactId>stuf-spring-security-extensions</artifactId>
-            <version>${stuf.version}</version>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
         </dependency>
-
+        
         <!-- Predix UAA Token Related -->
         <dependency>
             <groupId>com.ge.predix</groupId>
